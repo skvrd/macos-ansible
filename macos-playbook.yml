@@ -1,0 +1,9 @@
+---
+- name: Provision macOS for development
+  hosts: all
+  connection: local
+  tasks:
+  - name: Install VS code as editor
+    homebrew_cask:
+      name: visual-studio-code
+      state: present
