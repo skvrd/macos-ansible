@@ -11,6 +11,10 @@
     homebrew:
       name: pyenv
       state: present
+  - name: Install pipenv, for multiple python versions
+    homebrew:
+      name: pipenv
+      state: present
   - name: Install latest python version
     homebrew:
       name: pyenv
