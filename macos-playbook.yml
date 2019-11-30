@@ -19,6 +19,10 @@
     homebrew:
       name: pipenv
       state: present
+  - name: Install terraform, for infrastructure
+    homebrew:
+      name: terraform
+      state: present
   - name: Install latest python version
     homebrew:
       name: pyenv
